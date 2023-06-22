@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#navigation{
+    background-color: white;
+}
+.nav-row{
+    display:flex;
+}
+.nav-col1{
+    width:25%;
+
+}
+.click1{
+    padding-top: 1.8rem;
+}
+.click1 a{
+    text-decoration: none;
+    color:white;
+    background-color: #CE1212;
+    padding:10px 30px;
+    border-radius: 90px;
+}
+.navsec{
+    padding:30px;
+}
+.navsec a{
+    text-decoration: none;
+    padding:10px;
+    color:grey;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.nav-col2{
+    width:50%;
+}
+.yum{
+    padding-top: 20px;
+    font-size: 30px;
+   
+}
+.yum a{
+    text-decoration: none;
+    color:black;
+    padding-left: 20px;
+}
+.navsec a:hover{
+   color:#CE1212;
+}
+#back{
+    background-color: #eee;
+    padding-bottom: 2rem;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+}
+.col{
+    width:50%;
+    padding-top:3rem;
+}
+.box{
+    padding-top: 4rem;
+}
+.box h1{
+    font-size: 50px;
+    color:#37373f;
+    font-family:monospace;  
+}
+.box p{
+    color:grey;
+    font-size:18px;
+    padding-top: 2rem;
+    font-family:sans-serif;
+}
+.ip{
+    display:flex;
+}
+.ip i{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 25px;
+    color:#CE1212;
+}
+.ip p{
+    padding-left:10px;
+}
+.ip p:hover{
+    color:#CE1212;
+    transition: 1s;
+}
+.col img{
+    width:80%;
+}
+.click{
+    padding-top: 2rem;
+}
+.click a:hover{
+    box-shadow:10px 10px 30px #CE1212;
+}
+.button{
+    display:flex;
+}
+.click a{
+  text-decoration: none;
+  color:white;
+  background-color:#CE1212;
+  padding:10px 33px;
+  border-radius: 90px;
+}
